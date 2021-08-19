@@ -17,7 +17,7 @@ This project requires the following software
 - [Node.js >= 10.24.1](https://nodejs.org/en/)
 - [Vue.js Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ko)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
-- [D3 >= 7.0.1](https://jestjs.io/docs/en/getting-started)
+- [D3 >= 7.0.1](https://www.npmjs.com/package/d3)
 
 ## Installation
 
