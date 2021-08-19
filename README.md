@@ -7,7 +7,7 @@ This tutorial use D3 only for mathematic operation and let only Vue manipulate t
 
 ## Table of Contents
 
-1. [Line Chart][.src/components/LineChart.vue]
+1. [Line Chart](./src/components/LineChart.vue)
 2. 
 
 
