@@ -7,7 +7,7 @@ This tutorial use D3 only for mathematic operation and let only Vue manipulate t
 
 ## Table of Contents
 
-### Animation
+<!-- ### Animation
 TBD
 
 ### Interaction
@@ -24,19 +24,19 @@ TBD
 
 ### Bars
 TBD
-### Lines
+### Lines -->
 1. [Line Chart](./src/components/LineChart.vue) - [Original](https://observablehq.com/@d3/line-chart) 
 2. [Line with Missing Data](./src/components/LineWithMissingData.vue) - [Original](https://observablehq.com/@d3/line-with-missing-data) 
 <!-- 3. Multi Line Chart - [Original](https://observablehq.com/@d3/multi-line-chart)  -->
 <!-- 4. Threshold Encoding - [Original](https://observablehq.com/@d3/threshold-encoding) -->
 
-### Areas
-TBD
+<!-- ### Areas
+TBD -->
 <!-- 1. Stacked Area Chart - [Original](https://observablehq.com/@d3/stacked-area-chart) -->
 <!-- 2. Difference Chart - [Original](https://observablehq.com/@d3/difference-chart) -->
 <!-- 3. Realtime Horizon Chart - [Original](https://observablehq.com/@d3/realtime-horizon-chart) -->
 
-### Dots
+<!-- ### Dots
 TBD
 
 ### Radial
@@ -52,7 +52,7 @@ TBD
 TBD
 
 ### Just for fun
-TBD
+TBD -->
 ## Requirements
 This project requires the following software
 
