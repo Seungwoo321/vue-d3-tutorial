@@ -47,14 +47,6 @@
                 </g>
             </g>
             <path
-                :d="missingPath"
-                fill="none"
-                stroke="#ccc"
-                :stroke-width="1.5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-            ></path>
-            <path
                 :d="chartPath"
                 fill="none"
                 stroke="steelblue"
@@ -69,7 +61,7 @@
 
 <script>
 import * as d3 from 'd3'
-import data from './data.json'
+import data from '../../assets/data.json'
 export default {
     data () {
         return {
@@ -82,9 +74,6 @@ export default {
                 left: 40
             }
         }
-    },
-    created () {
-        console.log()
     },
     computed: {
         data () {
@@ -136,11 +125,8 @@ export default {
         chartPath () {
             return this.line(this.chartData)
         },
-        missingPath () {
-            return this.line(this.chartData.filter(this.line.defined()))
-        },
         chartData () {
-            return Object.assign(data.map(({ date, value }) => ({ date: new Date(date), value: new Date(date).getMonth() < 3 ? undefined : value })))
+            return Object.assign(data.map(({ date, value }) => ({ date: new Date(date), value })))
         },
         x () {
             return d3.scaleUtc()

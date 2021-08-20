@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import LineChart from './components/LineChart'
-import LineWidthMissingData from './components/LineWithMissingData.vue'
+import LineChart from './components/Lines/LineChart'
+import LineWidthMissingData from './components/Lines/LineWithMissingData.vue'
 export default {
     name: 'App',
     components: {

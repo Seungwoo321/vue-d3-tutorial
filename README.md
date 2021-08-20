@@ -3,11 +3,31 @@
 <h1 align="center">Vue.js with D3.js Tutorials</h1>
 
 ## Introduction
+
+... 
+
+---
 This tutorial use D3 only for mathematic operation and let only Vue manipulate the DOM.
+
+---
 
 ## Table of Contents
 
-<!-- ### Animation
+1. [Animation](./src/components/Animation/)
+2. [Interaction](./src/components/Interaction/)
+3. [Analysis](./src/components/Analysis/)
+4. [Hierarchies](./src/components/Hierarchies/)
+5. [Networks](./src/components/Networks/)
+6. [Bars](./src/components/Bars/)
+7. [Lines](./src/components/Lines/)
+8. [Areas](./src/components/Areas/)
+9. [Dots](./src/components/Dots/)
+10. [Radial](./src/components/Radial/)
+11. [Annotation](./src/components/Annotation/)
+12. [Maps](./src/components/Maps/)
+13. [Essays](./src/components/Essays/)
+14. [Just for fun](./src/components/JustForFun/)
+### Animation
 TBD
 
 ### Interaction
@@ -24,19 +44,10 @@ TBD
 
 ### Bars
 TBD
-### Lines -->
-1. [Line Chart](./src/components/LineChart.vue) - [Original](https://observablehq.com/@d3/line-chart) 
-2. [Line with Missing Data](./src/components/LineWithMissingData.vue) - [Original](https://observablehq.com/@d3/line-with-missing-data) 
-<!-- 3. Multi Line Chart - [Original](https://observablehq.com/@d3/multi-line-chart)  -->
-<!-- 4. Threshold Encoding - [Original](https://observablehq.com/@d3/threshold-encoding) -->
 
-<!-- ### Areas
-TBD -->
-<!-- 1. Stacked Area Chart - [Original](https://observablehq.com/@d3/stacked-area-chart) -->
-<!-- 2. Difference Chart - [Original](https://observablehq.com/@d3/difference-chart) -->
-<!-- 3. Realtime Horizon Chart - [Original](https://observablehq.com/@d3/realtime-horizon-chart) -->
-
-<!-- ### Dots
+### Areas
+TBD
+### Dots
 TBD
 
 ### Radial
@@ -52,7 +63,7 @@ TBD
 TBD
 
 ### Just for fun
-TBD -->
+TBD
 ## Requirements
 This project requires the following software
 
