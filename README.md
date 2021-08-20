@@ -12,19 +12,18 @@ This tutorial is converted [d3 example](https://observablehq.com/@d3/gallery) to
 ---
 
 ## Table of Contents
-
-1. [Animation](./src/components/Animation/)
-2. [Interaction](./src/components/Interaction/)
-3. [Analysis](./src/components/Analysis/)
-4. [Hierarchies](./src/components/Hierarchies/)
-5. [Networks](./src/components/Networks/)
-6. [Bars](./src/components/Bars/)
-7. [Lines](./src/components/Lines/)
-8. [Areas](./src/components/Areas/)
-9. [Dots](./src/components/Dots/)
-10. [Radial](./src/components/Radial/)
-11. [Annotation](./src/components/Annotation/)
-12. [Maps](./src/components/Maps/)
+1. [Lines](./src/components/Lines/)
+2. [Areas](./src/components/Areas/)
+3. [Bars](./src/components/Bars/)
+4. [Dots](./src/components/Dots/)
+5. [Radial](./src/components/Radial/)
+6. [Maps](./src/components/Maps/)
+7. [Animation](./src/components/Animation/)
+8. [Interaction](./src/components/Interaction/)
+9. [Analysis](./src/components/Analysis/)
+10. [Hierarchies](./src/components/Hierarchies/)
+11. [Networks](./src/components/Networks/)
+12. [Annotation](./src/components/Annotation/)
 13. [Essays](./src/components/Essays/)
 14. [Just for fun](./src/components/JustForFun/)
 
