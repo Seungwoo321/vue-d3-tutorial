@@ -27,43 +27,7 @@ This tutorial use D3 only for mathematic operation and let only Vue manipulate t
 12. [Maps](./src/components/Maps/)
 13. [Essays](./src/components/Essays/)
 14. [Just for fun](./src/components/JustForFun/)
-### Animation
-TBD
 
-### Interaction
-TBD
-
-### Analysis
-TBD
-
-### Hierarchies
-TBD
-
-### Networks
-TBD
-
-### Bars
-TBD
-
-### Areas
-TBD
-### Dots
-TBD
-
-### Radial
-TBD
-
-### Annotation
-TBD
-
-### Maps
-TBD
-
-### Essays
-TBD
-
-### Just for fun
-TBD
 ## Requirements
 This project requires the following software
 
