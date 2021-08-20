@@ -4,9 +4,7 @@
 
 ## Introduction
 
-This guide wil D3 only for mathematic operation and let only Vue manipulate the DOM.
-
-Hope this helps you build reusable and highly efficient components using D3 and Vue.js. 😄
+This guide will D3 only for mathematic operation and let only Vue manipulate the DOM. We hope this helps you build reusable and highly efficient components using D3 and Vue.js. 😄
 
 ---
 This tutorial is converted [d3 example](https://observablehq.com/@d3/gallery) to Vue.js.
