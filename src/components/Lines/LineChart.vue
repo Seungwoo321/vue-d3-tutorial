@@ -1,6 +1,14 @@
 <template>
     <div ref="container" class="container">
         <svg class="line-chart">
+            <path
+                :d="chartPath"
+                fill="none"
+                stroke="steelblue"
+                :stroke-width="1.5"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+            ></path>
             <g
                 class="xAxis"
                 :transform="`translate(0, ${height - margin.bottom})`"
@@ -46,17 +54,8 @@
                     <text v-if="i === yTicks.length - 1" fill="currentColor" x="3" dy="0.32em" text-anchor="start" font-weight="bold">$ Close</text>
                 </g>
             </g>
-            <path
-                :d="chartPath"
-                fill="none"
-                stroke="steelblue"
-                :stroke-width="1.5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-            ></path>
         </svg>
     </div>
-
 </template>
 
 <script>
@@ -76,12 +75,6 @@ export default {
         }
     },
     computed: {
-        data () {
-            return {
-                width: 0,
-                height: 0
-            }
-        },
         svgWidth: {
             get () {
                 return this.width
@@ -115,9 +108,6 @@ export default {
         },
         xTicks () {
             return this.x.ticks(this.width / 80)
-        },
-        yValues () {
-            return this.chartData.map(d => d.value)
         },
         domainPath () {
             return `M${this.margin.left},0H${this.width - this.margin.left}`
@@ -161,7 +151,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   height: 0;
   width: 100%;

@@ -1,6 +1,22 @@
 <template>
     <div ref="container" class="container">
         <svg class="line-chart">
+            <path
+                :d="missingPath"
+                fill="none"
+                stroke="#ccc"
+                :stroke-width="1.5"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+            ></path>
+            <path
+                :d="chartPath"
+                fill="none"
+                stroke="steelblue"
+                :stroke-width="1.5"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+            ></path>
             <g
                 class="xAxis"
                 :transform="`translate(0, ${height - margin.bottom})`"
@@ -46,22 +62,6 @@
                     <text v-if="i === yTicks.length - 1" fill="currentColor" x="3" dy="0.32em" text-anchor="start" font-weight="bold">$ Close</text>
                 </g>
             </g>
-            <path
-                :d="missingPath"
-                fill="none"
-                stroke="#ccc"
-                :stroke-width="1.5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-            ></path>
-            <path
-                :d="chartPath"
-                fill="none"
-                stroke="steelblue"
-                :stroke-width="1.5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-            ></path>
         </svg>
     </div>
 
