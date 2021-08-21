@@ -17,7 +17,7 @@
                 font-family="sans-serif"
                 text-anchor="middle"
             >
-                <path class="doamin" stroke="currentColor" :d="domainPath"></path>
+                <path class="doamin" stroke="currentColor" :d="`M${margin.left},0H${width - margin.left}`"></path>
                 <g
                     v-for="(v, i) in xTicks"
                     :key="`xAxis-tick-${i}`"
@@ -108,9 +108,6 @@ export default {
         },
         xTicks () {
             return this.x.ticks(this.width / 80)
-        },
-        domainPath () {
-            return `M${this.margin.left},0H${this.width - this.margin.left}`
         },
         chartPath () {
             return this.line(this.chartData)
